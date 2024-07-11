@@ -1116,7 +1116,7 @@ a.tumblr-box {
 .tmblr-embed {
     opacity: 0;
     margin: 4px 0;
-    transition: opacity .25s ease
+    transition: opacity 0.01s ease
 }
 
 .tmblr-embed.processed {
