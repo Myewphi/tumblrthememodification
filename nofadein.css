@@ -77,7 +77,7 @@ a:link,
 a:visited {
     text-decoration: var(--textLinksDecoration);
     color: rgb(var(--linksColor));
-    transition: all .1s ease
+    transition: all 0s
 }
 
 a:hover {
@@ -1117,7 +1117,7 @@ a.tumblr-box {
 .tmblr-embed {
     opacity: 0;
     margin: 4px 0;
-    transition: opacity 0.01s ease
+    transition: opacity 0s
 }
 
 .tmblr-embed.processed {
@@ -1350,7 +1350,7 @@ p.npf_chat {
 
 .audio-caption.processed {
     opacity: 1;
-    transition: opacity .3s ease
+    transition: opacity 0s
 }
 
 .audio-wrapper.has--cover,
